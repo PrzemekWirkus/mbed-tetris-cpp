@@ -187,8 +187,6 @@ protected:
     int g_brick_pos_y;
 };
 
-#endif
-
 template <class T>
 bool MBEDtrisTheGame<T>::detect_brick_bottom_collision(int offset_x, int offset_y)
 {
@@ -317,3 +315,5 @@ bool MBEDtrisTheGame<T>::try_rotate()
     }
     return true;
 }
+
+#endif
